@@ -48,7 +48,7 @@ p {
 /************************ HERO *************************/
 /********************************************************/
 #main {
-  background: url("../images/background-2.jpeg") no-repeat;
+  background: url("../images/background.jpeg") no-repeat;
   background-size: cover;
   min-height: 100vh;
   padding-top: 64px;
@@ -258,6 +258,10 @@ nav .menu {
 
 .emphasis {
   font-weight: 800;
+}
+
+.vertical-align {
+  vertical-align: middle;
 }
 
 /*# sourceMappingURL=main.css.map */

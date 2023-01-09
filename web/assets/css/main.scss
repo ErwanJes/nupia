@@ -53,17 +53,13 @@ p {
 /********************************************************/
 
 #main {
-  background: url("../images/background-2.jpeg") no-repeat;
+  background: url("../images/background.jpeg") no-repeat;
   background-size: cover;
   
   min-height: 100vh;
   padding-top: 64px;
   padding-left: 140px;
   padding-right: 120px;
-
-  @media (max-width: 1200px) {
-    // background-position: right;
-  }
 
   @media (max-width: 767px) {
     background-position: center;
@@ -74,13 +70,6 @@ p {
 
 #hero {
   max-width: 580px;
-
-  // @media (max-width: 1200px) {
-  //   max-width: 520px;
-  // }
-  // @media (max-width: 767px) {
-  //   max-width: 380px;
-  // }
 }
 
 /********************************************************/
@@ -281,4 +270,8 @@ nav {
 
 .emphasis {
   font-weight: 800;
+}
+
+.vertical-align {
+  vertical-align: middle;
 }
