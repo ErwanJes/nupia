@@ -26,6 +26,11 @@ h1 {
   margin-top: 0;
   margin-bottom: 0;
 }
+@media (max-width: 767px) {
+  h1 {
+    font-size: 48px;
+  }
+}
 
 h2 {
   font-family: "Nunito";
@@ -60,11 +65,18 @@ p {
     padding-right: 60px;
   }
 }
+@media (max-width: 480px) {
+  #main {
+    background-position: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 
 #hero {
   max-width: 580px;
 }
-@media (max-width: 1258px) and (min-width: 480px) {
+@media (max-width: 1258px) {
   #hero {
     backdrop-filter: blur(2px);
     background-color: rgba(255, 255, 255, 0.25);
@@ -151,38 +163,42 @@ nav .menu {
   display: flex;
 }
 
-.right {
-  float: right;
-}
-
 .nomargin {
   margin: 0;
   padding: 0;
 }
 
-.m-v-margin {
-  margin-top: 24px;
-  margin-bottom: 24px;
+.input {
+  background-color: #FCF2E4;
+  outline-color: #E9644B;
+  color: #7B7B7B;
+  font-size: 16px;
+  font-family: "Nunito";
+  box-sizing: border-box;
+  padding: 12px 20px;
+  border-radius: 22px;
+  border: 0px solid transparent;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
 }
 
-.s-v-margin {
-  margin-top: 20px;
+.input-with-button .btn-attached-input {
+  position: absolute;
+  top: 0;
+  right: -2px;
 }
 
 .btn {
+  font-family: "Nunito";
+  font-weight: 800;
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  border-radius: 22px;
   cursor: pointer;
   display: inline-block;
   text-decoration: none;
-  padding: 10px 16px;
-  border-radius: 22px;
-  color: #FFF8EF;
-  font-size: 16px;
-  font-family: "Nunito";
-  font-weight: 800;
-}
-
-.btn-big {
-  padding: 20px 30px;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .btn > img {
@@ -216,22 +232,9 @@ nav .menu {
   text-decoration: none;
 }
 
-.clean:visited {
+.clean:visited, .clean:hover, .clean:active {
   text-decoration: none;
   color: inherit;
-}
-
-.input {
-  background-color: #FCF2E4;
-  outline-color: #E9644B;
-  color: #7B7B7B;
-  font-family: "Nunito";
-  font-size: 16px;
-  box-sizing: border-box;
-  padding: 12px 20px;
-  border-radius: 22px;
-  border: 0px solid transparent;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
 }
 
 .small-input {
@@ -256,12 +259,6 @@ nav .menu {
   width: 100%;
 }
 
-.input-with-button .btn-attached-input {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
 .hidden {
   display: none;
 }
@@ -280,6 +277,10 @@ nav .menu {
 
 .success {
   color: #4BB543;
+}
+
+.black {
+  color: #091F23;
 }
 
 /*# sourceMappingURL=main.css.map */
