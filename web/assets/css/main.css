@@ -4,8 +4,6 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  color: black;
   font-size: 16px;
 }
 
@@ -18,7 +16,7 @@ body {
   line-height: 1.5;
   text-align: left;
   background-color: #FCF2E4;
-  color: black;
+  color: #091F23;
 }
 
 h1 {
@@ -65,6 +63,18 @@ p {
 
 #hero {
   max-width: 580px;
+}
+@media (max-width: 1258px) and (min-width: 480px) {
+  #hero {
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 20px;
+    border-radius: 25px;
+    max-width: 410px;
+  }
+  #hero p {
+    color: #414141;
+  }
 }
 
 /********************************************************/
@@ -165,7 +175,7 @@ nav .menu {
   text-decoration: none;
   padding: 10px 16px;
   border-radius: 22px;
-  color: white;
+  color: #FFF8EF;
   font-size: 16px;
   font-family: "Nunito";
   font-weight: 800;
@@ -189,13 +199,13 @@ nav .menu {
 
 .btn-primary {
   background-color: #E9644B;
-  color: white;
+  color: #FFF8EF;
   border: 2px solid transparent;
 }
 
 .btn-primary:hover,
 .btn-primary:active {
-  background-color: white;
+  background-color: #FFF8EF;
   color: #E9644B;
   border: 2px solid #E9644B;
   transition: 0.3s;
@@ -227,7 +237,7 @@ nav .menu {
 .small-input {
   max-width: 70%;
 }
-@media (max-width: 768px) {
+@media (max-width: 1258px) {
   .small-input {
     max-width: 100%;
   }
@@ -262,6 +272,14 @@ nav .menu {
 
 .vertical-align {
   vertical-align: middle;
+}
+
+.error {
+  color: #cc0000;
+}
+
+.success {
+  color: #4BB543;
 }
 
 /*# sourceMappingURL=main.css.map */
