@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito-Medium.ttf") format("truetype");
+}
+
+/*# sourceMappingURL=fonts.css.map */
