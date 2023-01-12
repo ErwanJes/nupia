@@ -51,7 +51,7 @@ p {
 /************************ HERO *************************/
 /********************************************************/
 #main {
-  background: url("../images/background.jpeg") no-repeat;
+  background: url("../images/background.webp") no-repeat;
   background-size: cover;
   min-height: 100vh;
   padding-top: 64px;
